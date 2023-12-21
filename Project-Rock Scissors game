@@ -1,0 +1,30 @@
+import tkinter as tk
+import random
+
+# Initialize the tkinter window
+root = tk.Tk()
+root.title("Rock Paper Scissors")
+
+# Create user input (buttons for rock, paper, scissors)
+rock_btn = tk.Button(root, text="Rock")
+paper_btn = tk.Button(root, text="Paper")
+scissors_btn = tk.Button(root, text="Scissors")
+
+# Place the buttons in the window (using grid or pack)
+# ...
+
+# Function to generate computer's choice
+def computer_choice():
+    choices = ["Rock", "Paper", "Scissors"]
+    return random.choice(choices)
+
+# Function to handle user's choice
+def user_choice(choice):
+    # Logic to determine winner between user and computer
+    # Update UI to display result
+    # ...
+
+# Set up initial UI elements
+# ...
+
+ root.mainloop()
